@@ -1,0 +1,7 @@
+build
+**/build
+**/a.out
+**/*.o
+**/*.a
+**/*.so
+**/.vscode
