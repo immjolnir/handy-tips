@@ -8,3 +8,5 @@ pip install pyscaffold
 
 putup my_project
 ```
+
+- [tox](./docs/tox.md)

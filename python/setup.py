@@ -17,7 +17,7 @@ def version_func(b):
 def local_version_func(b):
     build_num = os.getenv("BUILD_NUMBER")
     if not build_num:
-        return '999999'
+        return "999999"
     else:
         return build_num
 
@@ -30,13 +30,15 @@ if __name__ == "__main__":
         # https://pyscaffold.org/en/v4.0.2/faq.html
         # python setup.py --version
         # setup(use_scm_version={"version_scheme": "no-guess-dev"})
-        setup(use_scm_version={
-            "root": "..",
-            "relative_to": __file__,
-            "version_scheme": version_func,
-            # "local_scheme": "node-and-timestamp"
-            "local_scheme": local_version_func
-        })
+        setup(
+            use_scm_version={
+                "root": "..",
+                "relative_to": __file__,
+                "version_scheme": version_func,
+                # "local_scheme": "node-and-timestamp"
+                "local_scheme": local_version_func,
+            }
+        )
     except:  # noqa
         print(
             "\n\nAn error occurred while building the project, "
