@@ -5,3 +5,5 @@ build
 **/*.a
 **/*.so
 **/.vscode
+.venv
+**/.venv
