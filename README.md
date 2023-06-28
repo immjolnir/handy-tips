@@ -10,3 +10,4 @@ putup my_project
 ```
 
 - [tox](./docs/tox.md)
+- [poetry](https://github.com/python-poetry/poetry): Python packaging and dependency management made easy
