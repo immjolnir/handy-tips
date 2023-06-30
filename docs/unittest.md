@@ -1,4 +1,5 @@
 
+
 # Simple Smalltalk Testing: With Patterns
 
 YOU CAN'T ARGUE with inspiration (or deadlines). I started to write the final column in the sequence about using patterns for design, but what came out was this. It describes some work I have been doing with a framework that takes the tedium out of writing tests. I'll get back to the pattern stuff in the next issue.
@@ -17,4 +18,6 @@ The article is divided into four sections:
 
 # JUnit: unit testing and coiling in tandem
 
+## Implementations
 
+* [unittest](https://docs.python.org/3/library/unittest.html): The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.
