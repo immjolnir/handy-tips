@@ -21,3 +21,13 @@ The article is divided into four sections:
 ## Implementations
 
 * [unittest](https://docs.python.org/3/library/unittest.html): The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.
+
+- [pytest](https://github.com/pytest-dev/pytest)
+  - [How to use unittest-based tests with pytest](https://docs.pytest.org/en/7.1.x/how-to/unittest.html#unittest-testcase)
+  Almost all unittest features are supported:
+    - @unittest.skip style decorators;
+    - setUp/tearDown;
+    - setUpClass/tearDownClass;
+    - setUpModule/tearDownModule;
+
+  - [pytest-samples](https://github.com/hectorcanto/pytest-samples)

@@ -281,3 +281,7 @@ Re-run your test, and you’ll find that it still passes. That’s because it is
 ### Conclusion
 Python’s mock library, if a little confusing to work with, is a game-changer for unit-testing. We’ve demonstrated common use-cases for getting started using mock in unit-testing, and hopefully this article will help Python developers overcome the initial hurdles and write excellent, tested code.
 
+
+- mock: Used to replace something that is used in the current scope	
+- patch: Used to replace something that is imported and/or created in another scop
+
