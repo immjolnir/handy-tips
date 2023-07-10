@@ -1,0 +1,8 @@
+>>> import calculations
+
+>>> calculations.add(2, 2)
+4.0
+
+>>> calculations.divide(2, 2)
+1.0
+

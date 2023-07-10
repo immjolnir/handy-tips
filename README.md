@@ -11,3 +11,9 @@ putup my_project
 
 - [tox](./docs/tox.md)
 - [poetry](https://github.com/python-poetry/poetry): Python packaging and dependency management made easy
+- [freetype](https://freetype.org/): It is written in C, designed to be small, efficient, highly customizable, and portable while capable of producing high-quality output (glyph images) of most vector and bitmap font formats.
+
+- https://github.com/TadasBaltrusaitis/OpenFace
+
+- https://github.com/opencv/opencv_zoo/blob/main/benchmark/README.md
+
