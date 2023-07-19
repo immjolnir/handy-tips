@@ -31,6 +31,7 @@ if (ARCHETYPE_BUILD_TESTING)
     set(TEST_SOURCES
         test_employee.cpp
         test_gmock.cpp
+        test_mocking_free_function.cpp
     )
     
     foreach(file ${TEST_SOURCES})

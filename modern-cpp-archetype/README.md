@@ -12,6 +12,8 @@
 - [cctz: FindGMock.cmake](https://github.com/google/cctz/blob/master/cmake/modules/FindGMock.cmake)
 - [ctest](https://stackoverflow.com/questions/49736336/cmake-is-unable-to-find-packages-of-gmock)
 
+- [C++ / GoogleTest - How to run Setup for each test in a link directory](https://stackoverflow.com/questions/56375989/c-googletest-how-to-run-setup-for-each-test-in-a-link-directory)
+
 ## Code Coverage
 - [CodeCoverage](https://github.com/bilke/cmake-modules/blob/master/CodeCoverage.cmake)
 - [CodeCoverage](https://github.com/kahypar/kahypar/blob/master/cmake/modules/CodeCoverage.cmake)
