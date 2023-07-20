@@ -7,7 +7,6 @@
 
 import argparse
 import collections
-import shutil
 import difflib
 import os
 import re
@@ -21,6 +20,14 @@ except ImportError:
     from io import StringIO
 
 import configparser
+
+# https://stackoverflow.com/questions/11277721/python-2-code-if-python-3-then-sys-exit
+# https://python-future.org/compatible_idioms.html
+if sys.version_info < (3, 0):
+    from distutils.spawn import find_executable as which
+else:
+    from shutil import which
+
 
 def get_conf_bool(conf, section_name, opt_name, default_val=False):
     try:
@@ -113,7 +120,7 @@ def main():
         lines_by_file[filename] = [(1, am_lines)]
     binary = conf.get("formatter", "binary")
     if not binary.startswith("/"):
-        binary_cmd = shutil.which(binary)
+        binary_cmd = which(binary)
         if not binary_cmd:
             print("Could not find %s binary" % binary)
             sys.exit(1)
