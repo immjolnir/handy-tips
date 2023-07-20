@@ -1,0 +1,13 @@
+[formatter]
+; apply edits to files instead of displaying a diff
+apply_edits=1
+; let clang-format sort include blocks
+sort_includes=1
+; formatting style to apply (LLVM, Google, Chromium, Mozilla, WebKit), file..
+style=file
+; location of binary to use for clang-format
+binary=clang-format
+; comma separated list of files to never format
+exclude=common/include/vision/opencv.h
+; strip the smallest prefix containing P slashes
+strip_slash_amount=1

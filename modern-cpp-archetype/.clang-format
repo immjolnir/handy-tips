@@ -11,10 +11,10 @@ IncludeBlocks: Preserve
 ConstructorInitializerIndentWidth: 2
 ContinuationIndentWidth: 2
 AccessModifierOffset: -2
-InsertNewlineAtEOF: true
+#InsertNewlineAtEOF: true
 NamespaceIndentation: All
 SeparateDefinitionBlocks: Always
-SortUsingDeclarations: LexicographicNumeric
+#SortUsingDeclarations: LexicographicNumeric
 # Precise control over the wrapping of braces.
 BreakBeforeBraces: Custom
 BraceWrapping:
