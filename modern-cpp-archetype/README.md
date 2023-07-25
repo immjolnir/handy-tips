@@ -30,3 +30,10 @@ numerical methods for the simulation of thermo-hydro-mechanical-chemical
 - [CDash](https://github.com/Kitware/CDash): An open source, web-based software testing server
   - https://embeddeduse.com/2022/05/02/building-a-ci-pipeline-with-ctest-and-cdash/
 
+# ceres-solver
+- [FindGlog.make](https://github.com/ceres-solver/ceres-solver/blob/master/cmake/FindGlog.cmake)
+
+- [FindSphinx.cmake](https://github.com/ceres-solver/ceres-solver/blob/master/cmake/FindSphinx.cmake)
+
+- [EnableSanitizer.cmake](https://github.com/ceres-solver/ceres-solver/blob/master/cmake/EnableSanitizer.cmake)
+
